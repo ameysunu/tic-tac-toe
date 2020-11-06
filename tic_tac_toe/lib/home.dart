@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/contact.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -157,20 +156,13 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [
-          IconButton(
-              icon: Icon(Icons.person_pin_circle_sharp),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => ContactDev()),
-                );
-              })
-        ],
+        backgroundColor: Color(0xFF0A3D62),
         centerTitle: true,
         title: Text(
           "Tic Tac Toe",
           style: TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
         ),
@@ -219,8 +211,9 @@ class _HomePageState extends State<HomePage> {
             child: Text(
               "Reset Game",
               style: TextStyle(
+                fontWeight: FontWeight.bold,
                 color: Colors.white,
-                fontSize: 20.0,
+                fontSize: 32.0,
               ),
             ),
             onPressed: () {
@@ -234,7 +227,7 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(20.0),
             child: Text(
               "Developed by Astha Nayak",
-              style: TextStyle(fontSize: 15.0),
+              style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
             ),
           )
         ],
