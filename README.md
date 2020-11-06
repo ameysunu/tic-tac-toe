@@ -10,20 +10,16 @@ It has a delay feature which auto resets the game after a winner is declared,
 You can also manually reset the game if you want to.
 
 ## Screenshots
-<img src="images/Capture1.PNG"
+<img src="tic_tac_toe/assets/WhatsApp Image 2020-11-07 at 00.04.53.jpeg"
      alt="Home Screen"
      style="float: left; margin-right: 10px;"
-     width="200"/>
-     
-<img src="images/Capture2.PNG"
+     width="200"/>       <img src="tic_tac_toe/assets/WhatsApp Image 2020-11-07 at 00.04.53 (1).jpeg"
      alt="One Side Wins"
      style="float: left; margin-right: 10px;"
-     width="200"/> 
-
-<img src=""
+     width="200"/>      <img src="tic_tac_toe/assets/WhatsApp Image 2020-11-07 at 00.04.53 (2).jpeg"
      alt="Draw Match"
      style="float: left; margin-right: 10px;"
-     width="186"/> 
+     width="200"/> 
 
 ## How to run this
 Running this is as simple as it gets. Follow this steps
