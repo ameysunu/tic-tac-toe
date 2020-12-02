@@ -161,6 +161,7 @@ class _HomePageState extends State<HomePage> {
         title: Text(
           "Tic Tac Toe",
           style: TextStyle(
+            fontFamily: 'Poppins',
             fontSize: 32,
             fontWeight: FontWeight.bold,
             color: Colors.white,
@@ -199,6 +200,7 @@ class _HomePageState extends State<HomePage> {
             child: Text(
               this.message,
               style: TextStyle(
+                fontFamily: 'Poppins',
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
               ),
@@ -211,6 +213,7 @@ class _HomePageState extends State<HomePage> {
             child: Text(
               "Reset Game",
               style: TextStyle(
+                fontFamily: 'Poppins',
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
                 fontSize: 32.0,
@@ -227,7 +230,10 @@ class _HomePageState extends State<HomePage> {
             padding: EdgeInsets.all(20.0),
             child: Text(
               "Developed by Astha Nayak",
-              style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontFamily: 'Poppins',
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.bold),
             ),
           )
         ],
